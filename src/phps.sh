@@ -15,7 +15,7 @@ php_opt_path="$brew_prefix\/opt\/"
 
 # Has the user submitted a version required
 if [[ -z "$1" ]]; then
-    echo "usage: sphp version [-s|-s=*] [-c=*]"
+    echo "usage: phps version [-s|-s=*] [-c=*]"
     echo
     echo "    version    one of:" ${brew_array[@]}
     echo
