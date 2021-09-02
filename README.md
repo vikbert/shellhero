@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://1.bp.blogspot.com/-dBoGxQMuDpA/YFb8qV9LM5I/AAAAAAAAARQ/ImtGfZRZQ9kweL0OJwnI0mtM_udBtZCqwCNcBGAsYHQ/w680/coding%2Bskils%2Bto%2Bget%2Bjob.jpeg" width="480px" alt="aino" />
-  <h3>A Reacttive Slider App</h3>
-  <p>A React coding kata to slide the SPA page views with animation</p>
+  <h3>Shell Hero</h3>
+  <p>Collection of awesome shell scripts that make the life simple</p>
 
   <p>
     <a href="#">
