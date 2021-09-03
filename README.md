@@ -19,8 +19,9 @@
 > php version switcher
 
 ```bash
-curl -L https://raw.githubusercontent.com/vikbert/shellhero/main/src/phps.sh > /usr/local/bin/phps
-chmod +x phps
+➜ curl -L https://raw.githubusercontent.com/vikbert/shellhero/main/src/phps.sh > /usr/local/bin/phps
+➜ chmod +x phps
+➜ phps 8.0
 ```
 
 
