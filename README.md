@@ -20,6 +20,7 @@
 
 ```bash
 make phps
+phps -v
 ```
 
 
