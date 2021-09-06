@@ -26,3 +26,4 @@ make phps
 ## licence
 
 [MIT](./LICENSE) License © 2021 [@vikbert](https://vikbert.github.io/)
+git commit --amend --no-edit --date=format:'%Y-%m-%d' "2021-09-05"
