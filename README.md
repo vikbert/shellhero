@@ -41,12 +41,10 @@ phps 7.4
 > a script to clean up unused branches, that are already merged
 
 ```bash
-# install phps as local command on macos
+# install the command
 make gbclean
-
-# switch to php version 7.4
-gbclean --dry-run # dry-run mode to detech which branches will be removed
 gbclean # clean up the branches
+gbclean --dry-run # dry-run mode without applying any changes (recommended)
 ```
 
 

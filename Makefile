@@ -7,12 +7,12 @@ help:
 .PHONY: help
 .DEFAULT_GOAL := help
 
-#-- Install commands
+#-- Available commands
 phps: ## PHP version switcher that switch PHP version easily on macOS
 	curl -L https://raw.githubusercontent.com/vikbert/shellhero/main/src/phps.sh > /usr/local/bin/phps
 	chmod +x /usr/local/bin/phps
 	phps
 
-gbclean: ## clean up unused branches that are already merged
+gbclean: ## clean up unused merged branches from remote and local copies
 	curl -L https://raw.githubusercontent.com/vikbert/shellhero/main/src/git_branch_clean.sh > /usr/local/bin/gbclean
 	chmod +x /usr/local/bin/gbclean
