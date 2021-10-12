@@ -22,12 +22,18 @@ make
 
 
 
-## scripts `phps`
-> php version switcher
+## Script `phps`
+> a script to switch the php engine among different installed versions easily on macos.
 
 ```bash
-make phps
-phps -v
+# show sub commands in Makefile
+make
+
+# install phps as local command on macos
+make phps  
+
+# switch to php version 7.4
+phps 7.4
 ```
 
 
