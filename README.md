@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://1.bp.blogspot.com/-dBoGxQMuDpA/YFb8qV9LM5I/AAAAAAAAARQ/ImtGfZRZQ9kweL0OJwnI0mtM_udBtZCqwCNcBGAsYHQ/w680/coding%2Bskils%2Bto%2Bget%2Bjob.jpeg" width="480px" alt="aino" />
   <h3>Shell Hero</h3>
-  <p>Collection of awesome shell scripts that make the life simple</p>
+  <p>Collection of awesome shell scripts for MacOS that makes life simpler</p>
 
   <p>
     <a href="#">
@@ -15,7 +15,14 @@
 
 ---
 
-## Install `phps`
+## getting started
+```bash
+make 
+```
+
+
+
+## scripts `phps`
 > php version switcher
 
 ```bash
@@ -27,4 +34,3 @@ phps -v
 ## licence
 
 [MIT](./LICENSE) License © 2021 [@vikbert](https://vikbert.github.io/)
-git commit --amend --no-edit --date=format:'%Y-%m-%d' "2021-09-05"
