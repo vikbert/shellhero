@@ -15,12 +15,13 @@
 
 ---
 
+## How to contribute
+Add the new scripts to `/src/new_script.sh`, and then follow the [contributing guide](CONTRIBUTING.md)
+
 ## getting started
 ```bash
 make 
 ```
-
-
 
 ## Script `phps`
 > a script to switch the php engine among different installed versions easily on macos.
