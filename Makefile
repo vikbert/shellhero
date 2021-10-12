@@ -8,7 +8,7 @@ help:
 .DEFAULT_GOAL := help
 
 #-- Install commands
-phps: ## PHP version switcher
+phps: ## PHP version switcher that switch PHP version easily on macOS
 	curl -L https://raw.githubusercontent.com/vikbert/shellhero/main/src/phps.sh > /usr/local/bin/phps
 	chmod +x /usr/local/bin/phps
 	phps
