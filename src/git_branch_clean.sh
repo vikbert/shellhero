@@ -47,7 +47,10 @@ switch_branch() {
 }
 
 select_primary_branch() {
-    read -p "Which one is your ${bold}primary${normal} branch 1) main 2) master, 3) develop, Enter the number 1 2 or 3 ? " selection
+    echo "1) main"
+    echo "2) master"
+    echo "3) develop"
+    read -p "Type the number 1 2 or 3 to select the 'primary' branch? " selection
     print_hr
     case $selection in
         [1]* ) switch_branch "main";;
