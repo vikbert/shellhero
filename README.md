@@ -23,7 +23,13 @@ Add the new scripts to `/src/new_script.sh`, and then follow the [contributing g
 make 
 ```
 
-## Script `phps`
+## Script `php_installer.sh`
+this script is going to install essential `PHP version` and `composer`. It will also install the `php code static analyse tools`, such as:
+- php-cs-fixer
+- phpstan
+- phpinsights
+
+## Script `phps.sh`
 > a script to switch the php engine among different installed versions easily on macos.
 
 ```bash
