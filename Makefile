@@ -23,4 +23,10 @@ gbclean: ## clean up unused merged branches from remote and local copies
 psysh: ## clean up unused merged branches from remote and local copies
 	cd src && bash psysh.sh
 
+composer_install: ## install/remove composer
+	curl -sS https://getcomposer.org/installer | php
+	mv composer.phar /usr/local/bin/composer
+	chmod +x /usr/local/bin/composer
+
+
 
